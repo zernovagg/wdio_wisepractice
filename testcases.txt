@@ -1,0 +1,61 @@
+1.
+Title: check the "Docs" link from footer
+Precondition: ....
+
+- Go to https://github.com
+- Scroll to the footer
+- Click on the "Docs" link
+
+
+Expected result:
+The browser url contains "https://docs.github.com/"
+
+2. 
+Title: Subscribe to newsletters with empty "Work Email" field
+Precondition: ....
+
+- Go to https://github.com
+- Scroll to the footer
+- Click on the "Subscribe" button
+- Keep the "Work Email" field empty  
+- Click on the "Subscribe" button
+
+
+Expected result:
+The message with the text, wich asks to fill the field is shown under the "Work Email" field
+The post request is not performed = the current browser url is the same = https://resources.github.com/newsletter/
+
+3. 
+Title: check the "Search" field is funtional
+Precondition: ....
+
+- Go to https://github.com
+- Click on the "Search" link
+- Enter the "support" text into the input form
+- Press "Enter" from the keyboard
+
+
+Expected result:
+The page with search results "https://github.com/search?q=support&type=repositories" is shown 
+
+4. 
+Title: Check the "Start a free enterprise trial" button
+Precondition: ....
+
+- Go to https://github.com
+- Scroll the page to see "Start a free enterprise trial" button
+- Click on the "Start a free enterprise trial" button
+
+
+Expected result:
+The header "Pick your trial plan" is shown 
+
+5. 
+Title: Check the title of the "Actions" page
+Precondition: ....
+
+- Go to https://github.com
+- Click on the "Actions" link in the "Product" dropdown menu
+
+Expected result:
+The title of the page contains "Features • GitHub Actions · GitHub"

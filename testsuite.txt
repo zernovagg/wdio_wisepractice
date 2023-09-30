@@ -1,0 +1,11 @@
+1. Test suite (smoke)
+ - Login page
+ - Registration page
+ - Patment page
+
+2. Test suite (serach page)
+ - Search be keywords
+ - Search be different filters
+
+3. Test suite (regression)
+ - All suits  
